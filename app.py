@@ -13,7 +13,7 @@ class TestCalculator(unittest.TestCase):
   def test_subtract(self):
     selfassertEqual(subtract(20,10),10)
   def test_multiply(self):
-    selfassertEqual(multiply(20,20),40)
+    selfassertEqual(multiply(20,20),30)
 
 if __name__ =="__main__":
   print("student calsi")
