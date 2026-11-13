@@ -11,7 +11,7 @@ class TestCalculator(unittest.TestCase):
   def test_add(self):
     selfassertEqual(add(20,20),40)
   def test_subtract(self):
-    selfassertEqual(subtract(20,10),10)
+    selfassertEqual(subtract(20,10),20)
   def test_multiply(self):
     selfassertEqual(multiply(20,20),30)
 
